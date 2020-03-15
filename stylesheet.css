@@ -1,0 +1,140 @@
+html, body, ul, li, h1,h2,p,div {
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: "Lucida Grande";
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration:none;
+}
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url("https://cdn.hipwallpaper.com/m/10/40/dpE1no.jpg");
+  background-size: cover;
+  color:lightblue;
+  text-align: left;
+  height: 410px;
+}
+.container{
+  width: 100%;
+  margin:0 auto;
+
+
+}
+.container2 p{
+  width:700px;
+  font-size: 16px;
+/*text-align: left;*/
+padding-top: 25px;
+opacity:1;
+}
+.container2{
+  text-align: left;
+  padding-top: 20px;
+}
+
+.top-wrapper h1{
+  opacity:0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  /*margin-bottom: 10px;*/
+
+}
+.top-wrapper p{
+  opacity:0.7;
+  margin-bottom:10px;
+
+}
+header {
+  height: 80px;
+  width: 100%;
+  /*background-color: rgba(34, 49, 52, 0.9);*/
+  position: fixed;
+  top:0;
+  z-index: 1;
+  background-image: url("https://wallpaperaccess.com/full/334443.jpg");
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+
+  transition: all 0.5s;
+  padding-right: 50px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  padding-right: 50px;
+  color: white;
+  display:block;
+float:left;
+}
+.lesson-wrapper{
+  padding-bottom:80px;
+  height:500px;
+  text-align:center;
+  background-color:#f7f7f7;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+.hl-c {
+  float:right;
+  transition: all 0.5s;
+
+}
+.hl-c a{
+  line-height: 65px;
+  padding: 0 25px;
+  padding-right: 25px;
+  color: white;
+  display: inline-block;
+}
+h1 span{
+  color: yellow;
+}
+footer{
+  height: 80px;
+  width: 100%;
+  /*background-color: rgba(34, 49, 52, 0.9);*/
+
+
+
+  background-image: url("https://wallpaperaccess.com/full/334443.jpg");
+
+}
+footer a{
+  line-height: 65px;
+  padding: 0 25px;
+  padding-right: 50px;
+  color: white;
+  display:block;
+float:left;
+
+}
+h2{
+  color: yellow;
+}
